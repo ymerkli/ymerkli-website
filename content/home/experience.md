@@ -18,27 +18,27 @@ date_format = "Jan 2006"
 #   Leave `date_end` empty if it's your current employer.
 #   Begin/end multi-line descriptions with 3 quotes `"""`.
 [[experience]]
-  title = "CEO"
-  company = "GenCoin"
-  company_url = ""
-  location = "California"
-  date_start = "2017-01-01"
-  date_end = ""
+  title = "Junior Engineer Intern"
+  company = "Open Systems"
+  company_url = "https://open-systems.com"
+  location = "Zurich, Switzerland"
+  date_start = "2018-09-01"
+  date_end = "2019-02-28"
   description = """
-  Responsibilities include:
+  Open Systems is the leading provider of managed SD-WAN solutions worldwide, specialized in network security and analysis. As a member of the Firewall Team my responsibilities included:Responsibilities include:
   
-  * Analysing
-  * Modelling
-  * Deploying
+  * Prototyping the integration of a DPI library into the firewall product
+  * Adding an introspection mechanism to Go daemons 
+  * Implementing monitoring agents for multiple service components
   """
 
-[[experience]]
-  title = "Professor"
-  company = "University X"
-  company_url = ""
-  location = "California"
-  date_start = "2016-01-01"
-  date_end = "2016-12-31"
-  description = """Taught electronic engineering and researched semiconductor physics."""
+#[[experience]]
+#  title = "Professor"
+#  company = "University X"
+#  company_url = ""
+#  location = "California"
+#  date_start = "2016-01-01"
+#  date_end = "2016-12-31"
+#  description = """Taught electronic engineering and researched semiconductor physics."""
 
 +++
