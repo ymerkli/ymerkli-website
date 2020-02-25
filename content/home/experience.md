@@ -25,20 +25,26 @@ date_format = "Jan 2006"
   date_start = "2018-09-01"
   date_end = "2019-02-28"
   description = """
-  Open Systems is the leading provider of managed SD-WAN solutions worldwide, specialized in network security and analysis. As a member of the Firewall Team my responsibilities included:Responsibilities include:
+  Open Systems is the leading provider of managed SD-WAN solutions worldwide, specialized in network security and analysis. As a member of the Firewall Team my responsibilities included:
   
   * Prototyping the integration of a DPI library into the firewall product
   * Adding an introspection mechanism to Go daemons 
-  * Implementing monitoring agents for multiple service components
+  * Extending the SessionDB daemon with a seamless configuration reload mechanism
+  * Implementing monitoring agents for multiple service components (SessionDB, DNS Inspection engine, DPI daemon, Application tracking daemon)
   """
 
-#[[experience]]
-#  title = "Professor"
-#  company = "University X"
-#  company_url = ""
-#  location = "California"
-#  date_start = "2016-01-01"
-#  date_end = "2016-12-31"
-#  description = """Taught electronic engineering and researched semiconductor physics."""
+[[experience]]
+  title = "Teaching Assistant"
+  company = "Signal and Information Processing Laboratory, ETH Zurich"
+  company_url = "https://isi.ee.ethz.ch/"
+  location = "Zurich, Switzerland"
+  date_start = "2018-02-19"
+  date_end = "2018-06-01"
+  description = """
+  I supervised the Signal and Information Processing lab exercises, which consisted of guiding students through experiments on:
 
+  * Analogue and digital filters
+  * Error correction
+  * Regression and clustering
+  """
 +++

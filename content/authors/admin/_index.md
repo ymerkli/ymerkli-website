@@ -22,7 +22,7 @@ bio: My research interests include security, networked systems and machine learn
 
 interests:
 - Cyber Security
-- Networking
+- Networked Systems 
 - Machine Learning
 
 education:
@@ -41,16 +41,19 @@ education:
 social:
 - icon: envelope
   icon_pack: fas
-  link: '#contact'  # For a direct email link, use "mailto:test@example.org".
+  link: 'mailto:contact@ymerkli.com'  # For a direct email link, use "mailto:test@example.org".
 - icon: twitter
   icon_pack: fab
   link: https://twitter.com/yannickmerkli
-#- icon: google-scholar
-#  icon_pack: ai
-#  link: https://scholar.google.co.uk/citations?user=sIwtMXoAAAAJ
 - icon: github
   icon_pack: fab
   link: https://github.com/ymerkli
+- icon: keybase
+  icon_pack: fab
+  link: https://keybase.io/ymerkli
+- icon: linkedin
+  icon_pack: fab
+  link: https://www.linkedin.com/in/yannick-merkli/
 # Link to a PDF of your resume/CV from the About widget.
 # To enable, copy your resume/CV to `static/files/cv.pdf` and uncomment the lines below.  
 # - icon: cv
