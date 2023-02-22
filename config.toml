@@ -1,0 +1,84 @@
+baseURL = "https://ymerkli.com"
+title = "Yannick Merkli"
+theme = ["etch", "hugo-shortcode-gallery"]
+languageCode = "en-US"
+enableInlineShortcodes = true
+pygmentsCodeFences = true
+pygmentsUseClasses = true
+
+[menu]
+  [[menu.main]]
+    identifier = "posts"
+    name = "posts 📃"
+    title = "posts"
+    url = "/"
+    weight = 10
+
+  [[menu.main]]
+    identifier = "projects"
+    name = "projects ⚙️"
+    title = "projects"
+    url = "/"
+    weight = 20
+
+  [[menu.main]]
+    identifier = "garden"
+    name = "garden 🪴"
+    title = "garden"
+    url = "https://www.ymerkli.com"
+    weight = 30
+
+  [[menu.main]]
+    identifier = "travels"
+    name = "travels ✈️"
+    title = "travels"
+    url = "/travels/"
+    weight = 40
+
+  [[menu.main]]
+    identifier = "about"
+    name = "about 🗄️"
+    title = "about"
+    url = "/about/"
+    weight = 50
+
+[params]
+  description = "Yannick Merkli"
+  copyright = "Copyright © 2023 Yannick Merkli"
+  dark = "auto"
+  highlight = true
+  avatarURL = "/images/avatar.png"
+  avatarSize = "w3-circle"
+
+  # Configure sections for posts
+  postsSections = ["posts"]
+  # Configure sections for projects
+  projectsSections = ["projects"]
+  # Configure sections for Travels
+  travelsSections = ["travels"]
+
+
+  # Social Icons
+  # Check https://github.com/Track3/hermit#social-icons for more info.
+  [[params.social]]
+    name = "github"
+    url = "https://github.com/ymerkli"
+
+  [[params.social]]
+    name = "linkedin"
+    url = "https://www.linkedin.com/in/ymerkli/"
+
+  [[params.social]]
+    name = "twitter"
+    url = "https://twitter.com/yannickmerkli"
+
+
+[permalinks]
+  posts = "/:title/"
+
+[markup.goldmark.renderer]
+  # Allow HTML in Markdown
+  unsafe = true
+
+  [markup.tableOfContents]
+    ordered = true
